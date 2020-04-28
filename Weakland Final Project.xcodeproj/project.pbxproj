@@ -15,6 +15,9 @@
 		50555DB02458A20D00593048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50555DAE2458A20D00593048 /* LaunchScreen.storyboard */; };
 		50555DBB2458A20E00593048 /* Weakland_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555DBA2458A20E00593048 /* Weakland_Final_ProjectTests.swift */; };
 		50555DC62458A20E00593048 /* Weakland_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555DC52458A20E00593048 /* Weakland_Final_ProjectUITests.swift */; };
+		50555DD42458AEC700593048 /* 14e65a84a034e4ef94deef8fedf4df8f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50555DD32458AEC700593048 /* 14e65a84a034e4ef94deef8fedf4df8f.jpg */; };
+		50555DD62458B3CC00593048 /* maxresdefault.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50555DD52458B3CC00593048 /* maxresdefault.jpg */; };
+		50555DD82458B8A600593048 /* Screen Shot 2020-04-28 at 3.16.17 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 50555DD72458B8A600593048 /* Screen Shot 2020-04-28 at 3.16.17 PM.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		50555DC12458A20E00593048 /* Weakland Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weakland Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50555DC52458A20E00593048 /* Weakland_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weakland_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		50555DC72458A20E00593048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50555DD32458AEC700593048 /* 14e65a84a034e4ef94deef8fedf4df8f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 14e65a84a034e4ef94deef8fedf4df8f.jpg; sourceTree = "<group>"; };
+		50555DD52458B3CC00593048 /* maxresdefault.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maxresdefault.jpg; sourceTree = "<group>"; };
+		50555DD72458B8A600593048 /* Screen Shot 2020-04-28 at 3.16.17 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2020-04-28 at 3.16.17 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,9 @@
 				50555DB92458A20E00593048 /* Weakland Final ProjectTests */,
 				50555DC42458A20E00593048 /* Weakland Final ProjectUITests */,
 				50555DA12458A20C00593048 /* Products */,
+				50555DD32458AEC700593048 /* 14e65a84a034e4ef94deef8fedf4df8f.jpg */,
+				50555DD52458B3CC00593048 /* maxresdefault.jpg */,
+				50555DD72458B8A600593048 /* Screen Shot 2020-04-28 at 3.16.17 PM.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -234,7 +243,10 @@
 			files = (
 				50555DB02458A20D00593048 /* LaunchScreen.storyboard in Resources */,
 				50555DAD2458A20D00593048 /* Assets.xcassets in Resources */,
+				50555DD62458B3CC00593048 /* maxresdefault.jpg in Resources */,
 				50555DAB2458A20C00593048 /* Main.storyboard in Resources */,
+				50555DD42458AEC700593048 /* 14e65a84a034e4ef94deef8fedf4df8f.jpg in Resources */,
+				50555DD82458B8A600593048 /* Screen Shot 2020-04-28 at 3.16.17 PM.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
