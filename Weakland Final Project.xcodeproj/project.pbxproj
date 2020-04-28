@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50555DA42458A20C00593048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555DA32458A20C00593048 /* AppDelegate.swift */; };
+		50555DA62458A20C00593048 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555DA52458A20C00593048 /* SceneDelegate.swift */; };
+		50555DA82458A20C00593048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555DA72458A20C00593048 /* ViewController.swift */; };
+		50555DAB2458A20C00593048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50555DA92458A20C00593048 /* Main.storyboard */; };
+		50555DAD2458A20D00593048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50555DAC2458A20D00593048 /* Assets.xcassets */; };
+		50555DB02458A20D00593048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50555DAE2458A20D00593048 /* LaunchScreen.storyboard */; };
+		50555DBB2458A20E00593048 /* Weakland_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555DBA2458A20E00593048 /* Weakland_Final_ProjectTests.swift */; };
+		50555DC62458A20E00593048 /* Weakland_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50555DC52458A20E00593048 /* Weakland_Final_ProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50555DB72458A20E00593048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50555D982458A20C00593048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50555D9F2458A20C00593048;
+			remoteInfo = "Weakland Final Project";
+		};
+		50555DC22458A20E00593048 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50555D982458A20C00593048 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50555D9F2458A20C00593048;
+			remoteInfo = "Weakland Final Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50555DA02458A20C00593048 /* Weakland Final Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Weakland Final Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50555DA32458A20C00593048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		50555DA52458A20C00593048 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		50555DA72458A20C00593048 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		50555DAA2458A20C00593048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50555DAC2458A20D00593048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50555DAF2458A20D00593048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50555DB12458A20D00593048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50555DB62458A20E00593048 /* Weakland Final ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weakland Final ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50555DBA2458A20E00593048 /* Weakland_Final_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weakland_Final_ProjectTests.swift; sourceTree = "<group>"; };
+		50555DBC2458A20E00593048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50555DC12458A20E00593048 /* Weakland Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Weakland Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50555DC52458A20E00593048 /* Weakland_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weakland_Final_ProjectUITests.swift; sourceTree = "<group>"; };
+		50555DC72458A20E00593048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50555D9D2458A20C00593048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50555DB32458A20E00593048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50555DBE2458A20E00593048 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50555D972458A20C00593048 = {
+			isa = PBXGroup;
+			children = (
+				50555DA22458A20C00593048 /* Weakland Final Project */,
+				50555DB92458A20E00593048 /* Weakland Final ProjectTests */,
+				50555DC42458A20E00593048 /* Weakland Final ProjectUITests */,
+				50555DA12458A20C00593048 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50555DA12458A20C00593048 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50555DA02458A20C00593048 /* Weakland Final Project.app */,
+				50555DB62458A20E00593048 /* Weakland Final ProjectTests.xctest */,
+				50555DC12458A20E00593048 /* Weakland Final ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50555DA22458A20C00593048 /* Weakland Final Project */ = {
+			isa = PBXGroup;
+			children = (
+				50555DA32458A20C00593048 /* AppDelegate.swift */,
+				50555DA52458A20C00593048 /* SceneDelegate.swift */,
+				50555DA72458A20C00593048 /* ViewController.swift */,
+				50555DA92458A20C00593048 /* Main.storyboard */,
+				50555DAC2458A20D00593048 /* Assets.xcassets */,
+				50555DAE2458A20D00593048 /* LaunchScreen.storyboard */,
+				50555DB12458A20D00593048 /* Info.plist */,
+			);
+			path = "Weakland Final Project";
+			sourceTree = "<group>";
+		};
+		50555DB92458A20E00593048 /* Weakland Final ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				50555DBA2458A20E00593048 /* Weakland_Final_ProjectTests.swift */,
+				50555DBC2458A20E00593048 /* Info.plist */,
+			);
+			path = "Weakland Final ProjectTests";
+			sourceTree = "<group>";
+		};
+		50555DC42458A20E00593048 /* Weakland Final ProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50555DC52458A20E00593048 /* Weakland_Final_ProjectUITests.swift */,
+				50555DC72458A20E00593048 /* Info.plist */,
+			);
+			path = "Weakland Final ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50555D9F2458A20C00593048 /* Weakland Final Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50555DCA2458A20E00593048 /* Build configuration list for PBXNativeTarget "Weakland Final Project" */;
+			buildPhases = (
+				50555D9C2458A20C00593048 /* Sources */,
+				50555D9D2458A20C00593048 /* Frameworks */,
+				50555D9E2458A20C00593048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Weakland Final Project";
+			productName = "Weakland Final Project";
+			productReference = 50555DA02458A20C00593048 /* Weakland Final Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50555DB52458A20E00593048 /* Weakland Final ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50555DCD2458A20E00593048 /* Build configuration list for PBXNativeTarget "Weakland Final ProjectTests" */;
+			buildPhases = (
+				50555DB22458A20E00593048 /* Sources */,
+				50555DB32458A20E00593048 /* Frameworks */,
+				50555DB42458A20E00593048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50555DB82458A20E00593048 /* PBXTargetDependency */,
+			);
+			name = "Weakland Final ProjectTests";
+			productName = "Weakland Final ProjectTests";
+			productReference = 50555DB62458A20E00593048 /* Weakland Final ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50555DC02458A20E00593048 /* Weakland Final ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50555DD02458A20E00593048 /* Build configuration list for PBXNativeTarget "Weakland Final ProjectUITests" */;
+			buildPhases = (
+				50555DBD2458A20E00593048 /* Sources */,
+				50555DBE2458A20E00593048 /* Frameworks */,
+				50555DBF2458A20E00593048 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50555DC32458A20E00593048 /* PBXTargetDependency */,
+			);
+			name = "Weakland Final ProjectUITests";
+			productName = "Weakland Final ProjectUITests";
+			productReference = 50555DC12458A20E00593048 /* Weakland Final ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50555D982458A20C00593048 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Lucas Weakland";
+				TargetAttributes = {
+					50555D9F2458A20C00593048 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					50555DB52458A20E00593048 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 50555D9F2458A20C00593048;
+					};
+					50555DC02458A20E00593048 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 50555D9F2458A20C00593048;
+					};
+				};
+			};
+			buildConfigurationList = 50555D9B2458A20C00593048 /* Build configuration list for PBXProject "Weakland Final Project" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50555D972458A20C00593048;
+			productRefGroup = 50555DA12458A20C00593048 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50555D9F2458A20C00593048 /* Weakland Final Project */,
+				50555DB52458A20E00593048 /* Weakland Final ProjectTests */,
+				50555DC02458A20E00593048 /* Weakland Final ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50555D9E2458A20C00593048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50555DB02458A20D00593048 /* LaunchScreen.storyboard in Resources */,
+				50555DAD2458A20D00593048 /* Assets.xcassets in Resources */,
+				50555DAB2458A20C00593048 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50555DB42458A20E00593048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50555DBF2458A20E00593048 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50555D9C2458A20C00593048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50555DA82458A20C00593048 /* ViewController.swift in Sources */,
+				50555DA42458A20C00593048 /* AppDelegate.swift in Sources */,
+				50555DA62458A20C00593048 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50555DB22458A20E00593048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50555DBB2458A20E00593048 /* Weakland_Final_ProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50555DBD2458A20E00593048 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50555DC62458A20E00593048 /* Weakland_Final_ProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50555DB82458A20E00593048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50555D9F2458A20C00593048 /* Weakland Final Project */;
+			targetProxy = 50555DB72458A20E00593048 /* PBXContainerItemProxy */;
+		};
+		50555DC32458A20E00593048 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50555D9F2458A20C00593048 /* Weakland Final Project */;
+			targetProxy = 50555DC22458A20E00593048 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50555DA92458A20C00593048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50555DAA2458A20C00593048 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50555DAE2458A20D00593048 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50555DAF2458A20D00593048 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50555DC82458A20E00593048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50555DC92458A20E00593048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50555DCB2458A20E00593048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAHCB89Z56;
+				INFOPLIST_FILE = "Weakland Final Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lucasweaklandprog2.Weakland-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50555DCC2458A20E00593048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAHCB89Z56;
+				INFOPLIST_FILE = "Weakland Final Project/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lucasweaklandprog2.Weakland-Final-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50555DCE2458A20E00593048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAHCB89Z56;
+				INFOPLIST_FILE = "Weakland Final ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lucasweaklandprog2.Weakland-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weakland Final Project.app/Weakland Final Project";
+			};
+			name = Debug;
+		};
+		50555DCF2458A20E00593048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAHCB89Z56;
+				INFOPLIST_FILE = "Weakland Final ProjectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lucasweaklandprog2.Weakland-Final-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Weakland Final Project.app/Weakland Final Project";
+			};
+			name = Release;
+		};
+		50555DD12458A20E00593048 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAHCB89Z56;
+				INFOPLIST_FILE = "Weakland Final ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lucasweaklandprog2.Weakland-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weakland Final Project";
+			};
+			name = Debug;
+		};
+		50555DD22458A20E00593048 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MAHCB89Z56;
+				INFOPLIST_FILE = "Weakland Final ProjectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "lucasweaklandprog2.Weakland-Final-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Weakland Final Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50555D9B2458A20C00593048 /* Build configuration list for PBXProject "Weakland Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50555DC82458A20E00593048 /* Debug */,
+				50555DC92458A20E00593048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50555DCA2458A20E00593048 /* Build configuration list for PBXNativeTarget "Weakland Final Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50555DCB2458A20E00593048 /* Debug */,
+				50555DCC2458A20E00593048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50555DCD2458A20E00593048 /* Build configuration list for PBXNativeTarget "Weakland Final ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50555DCE2458A20E00593048 /* Debug */,
+				50555DCF2458A20E00593048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50555DD02458A20E00593048 /* Build configuration list for PBXNativeTarget "Weakland Final ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50555DD12458A20E00593048 /* Debug */,
+				50555DD22458A20E00593048 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50555D982458A20C00593048 /* Project object */;
+}
